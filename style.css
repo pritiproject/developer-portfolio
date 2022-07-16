@@ -10,6 +10,7 @@ h1{
 }
 section{
   display:flex;
+  margin-bottom: 150px; 
 }
 .half-width{
   width: 50%;
@@ -18,11 +19,12 @@ section{
 .half-width img{
   width: 100%
 }
-.button{
-  background-color: rgb(255, 81, 0);
-  padding:10px 10px;
-  border-radius:5px;
-  color:white;
+.link-button{
+  text-decoration: none;
+  background-color: orangered;
+  padding-left: 10px 40px;
+  border-radius: 5px;
+  color: white;
   font-weight: 700;
 }
 .top-banner{
